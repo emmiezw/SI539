@@ -26,9 +26,10 @@ body {
     padding: 20px
 }
 
-.footer a{
+.footer a {
   color:pink;
-  text-decoration:none;}
+  text-decoration:none;
+}
 
 .nav {
     overflow: hidden;
