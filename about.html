@@ -46,26 +46,36 @@
       <form action="/action_page.php" class="main">
         <fieldset>
           <legend>Contact me:</legend>
+
           <label for="firstname">First name:</label>
-          <input type="text" name="firstname">
+          <input type="text" name="firstname" id="firstname">
+
           <br>
           <br>
+
           <label for="lastname">Last name:</label>
-          <input type="text" name="lastname">
-          <br><br>
+          <input type="text" name="lastname" id="lastname">
+
           <br>
+          <br>
+
           <label for="where">Where did you find me:</label>
-          <select name="cars">
-           <option value="volvo">Linkedin</option>
-           <option value="saab">Social Media</option>
-           <option value="fiat">University of Michigan</option>
-           <option value="audi">You are my parents' friend</option>
+          <select name="where" id="where">
+           <option value="LN">Linkedin</option>
+           <option value="SM">Social Media</option>
+           <option value="UM">University of Michigan</option>
+           <option value="friend">You are my parents' friend</option>
          </select>
+
           <br>
           <br>
+
           <label for="message">Message:</label>
-          <textarea name="message"></textarea>
-          <br><br>
+          <textarea name="message" id="message"></textarea>
+
+          <br>
+          <br>
+
           <input type="submit" value="Submit">
         </fieldset>
       </form>
