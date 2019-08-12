@@ -31,8 +31,8 @@ body {
   text-decoration:none;
 }
 
-.footer a :hover{
-  color: yellow;
+.footer a:hover{
+  text-decoration: underline;
 }
 
 .nav {
