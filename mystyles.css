@@ -26,6 +26,9 @@ body {
     padding: 20px
 }
 
+.footer a{
+  color:pink}
+
 .nav {
     overflow: hidden;
     text-align:center;
