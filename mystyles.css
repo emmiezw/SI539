@@ -31,6 +31,10 @@ body {
   text-decoration:none;
 }
 
+.footer a :hover{
+  color: yellow;
+}
+
 .nav {
     overflow: hidden;
     text-align:center;
