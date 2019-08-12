@@ -27,7 +27,8 @@ body {
 }
 
 .footer a{
-  color:pink}
+  color:pink;
+  text-decoration:none;}
 
 .nav {
     overflow: hidden;
